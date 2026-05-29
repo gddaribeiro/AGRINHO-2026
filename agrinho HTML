@@ -1,0 +1,48 @@
+(index.html) <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Agrinho: Energia Renovável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Projeto Agrinho 2026</h1>
+        <p>Sustentabilidade: A Importância da Energia Renovável no Campo e na Cidade</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>O que são Energias Renováveis?</h2>
+            <p>São fontes de energia limpa que se regeneram naturalmente, como o <strong>Sol (solar)</strong>, o <strong>vento (eólica)</strong> e a <strong>matéria orgânica (biomassa)</strong>. Ao contrário dos combustíveis fósseis, elas não esgotam e preservam o nosso meio ambiente.</p>
+        </section>
+
+        <section class="card">
+            <h2>Por que elas são importantes para o Agrinho?</h2>
+            <p>O Agrinho promove a harmonia entre a agricultura e a natureza. O uso de energia solar na irrigação ou da biomassa gerada pelos resíduos do campo reduz a poluição, diminui os custos do produtor rural e garante um futuro sustentável para as próximas gerações.</p>
+        </section>
+
+        <section class="card interativo">
+            <h2>Simulador de Impacto Ecológico</h2>
+            <p>Descubra quantas árvores você "salva" por ano ao adotar a Energia Solar na sua propriedade!</p>
+            
+            <div class="formulario">
+                <label for="consumo">Seu consumo mensal de energia (em kWh):</label>
+                <input type="number" id="consumo" placeholder="Ex: 250">
+                <button onclick="calcularImpacto()">Calcular Impacto</button>
+            </div>
+
+            <div id="resultado" class="escondido">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Projeto Escolar Agrinho - Semeando um futuro sustentável.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
